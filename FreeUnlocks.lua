@@ -11,8 +11,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Made by astria5";
 	Text = "Credits to astria5 for making the script";
 	Duration = 5;
-	Button1 = "Thanks";
-	Button2 = "Dismiss";
 })
 
 task.spawn(function()
