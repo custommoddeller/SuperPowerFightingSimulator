@@ -7,20 +7,11 @@ function increaseX(x: String, t: Number)
     end
 end
 
-local creditThing = Instance.new("BindableFunction")
-
-function creditThing.OnInvoke(response)
-    if response == "Copy" then
-        setclipboard("astria5")
-    end
-end
-
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Made by astria5";
 	Text = "Credits to astria5 for making the script";
 	Duration = 5;
-    	Callback = creditThing;
-	Button1 = "Copy";
+	Button1 = "Thanks";
 	Button2 = "Dismiss";
 })
 
