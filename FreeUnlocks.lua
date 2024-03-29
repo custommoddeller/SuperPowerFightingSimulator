@@ -1,4 +1,4 @@
-function increaseX(x: String, t: Number)
+function increaseX(x, t)
     for = 1, t do
         game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("Multiplier"):InvokeServer(unpack({
             [1] = x,
