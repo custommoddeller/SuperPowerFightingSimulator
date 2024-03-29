@@ -1,6 +1,3 @@
-getgenv().chestSpeed = true
-getgenv().luckMultiplier = true
-
 while task.wait() do
     if getgenv().chestSpeed then
         game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("Multiplier"):InvokeServer(unpack({
