@@ -19,6 +19,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Made by astria5";
 	Text = "Credits to astria5 for making the script";
 	Duration = 5;
+    	Callback = creditThing
 	Button1 = "Copy";
 	Button2 = "Dismiss";
 })
