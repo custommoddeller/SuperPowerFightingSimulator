@@ -10,7 +10,7 @@ end
 local creditThing = Instance.new("BindableFunction")
 
 function creditThing.OnInvoke(response)
-    if response == "Copy username" then
+    if response == "Copy" then
         setclipboard("astria5")
     end
 end
